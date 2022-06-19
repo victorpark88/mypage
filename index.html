@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="빅토리">
+    <meta property="og:description" content="궁금하면 눌러보세요">
+    <meta property="og:image" content="victory.jpg">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>빅토리 - 프로필 모음</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+        body {
+            background-color: #44398a;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+
+            border-radius: 100%;
+
+            border : 2px solid black;
+
+            background-image: url('victory.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+        }
+        .sub {
+            color: white;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398a;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap > a:hover {
+            background-color: #c7a8a8;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">빅토리</h1>
+        <p class="sub">궁금한게 있으세요?</p>
+        <a target="_blank" href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%EB%B9%85%ED%86%A0%EB%A6%AC">네이버 검색</a>
+        <a target="_blank" href="https://search.daum.net/search?w=tot&DA=YZR&t__nil_searchbox=btn&sug=&sugo=&sq=&o=&q=%EB%B9%85%ED%86%A0%EB%A6%AC">다음 검색</a>
+        <a target="_blank" href="https://www.google.com/search?q=%EB%B9%85%ED%86%A0%EB%A6%AC&source=hp&ei=Bu2uYr_VEYed-AaC142QCg&iflsig=AJiK0e8AAAAAYq77FmBllz2_w0dMbr3zOBJDZsHDF2ol&ved=0ahUKEwi_8NTBmrn4AhWHDt4KHYJrA6IQ4dUDCAk&uact=5&oq=%EB%B9%85%ED%86%A0%EB%A6%AC&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEELEDEIMBMgUILhCABDIRCC4QgAQQsQMQgwEQxwEQowIyBAgAEAMyCwgAEIAEELEDEIMBMgsILhCABBCxAxCDATIECAAQAzILCC4QgAQQsQMQgwEyDgguEIAEELEDEIMBENQCMgsIABCABBCxAxCDAToHCAAQgAQQCjoICAAQgAQQsQM6BAguEAM6DgguEIAEELEDEMcBENEDOgUIABCABDoUCAAQ6gIQtAIQigMQtwMQ1AMQ5QI6FwguENQCEOoCELQCEIoDELcDENQDEOUCOhQILhDqAhC0AhCKAxC3AxDUAxDlAjoRCC4Q6gIQtAIQigMQtwMQ5QI6CwguEIAEELEDENQCOggILhCABBCxA1AAWMoKYL4LaAJwAHgBgAGBAYgBsgaSAQMwLjeYAQCgAQGwAQk&sclient=gws-wiz">구글 검색</a>
+    </div>
+</body>
+</html>
